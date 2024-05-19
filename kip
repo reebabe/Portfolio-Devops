@@ -1,0 +1,635 @@
+[33mcommit c8f6029a984a443cb21966c8a5f710088748cc4b[m
+Author: reebabe <k200341@nu.edu.pk>
+Date:   Tue Apr 23 22:07:54 2024 +0500
+
+    Initial commit: Created basic website structure
+
+[1mdiff --git a/.all-contributorsrc b/.all-contributorsrc[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7eb8b5a[m
+[1m--- /dev/null[m
+[1m+++ b/.all-contributorsrc[m
+[36m@@ -0,0 +1,349 @@[m
+[32m+[m[32m{[m
+[32m+[m[32m  "files": [[m
+[32m+[m[32m    "README.md"[m
+[32m+[m[32m  ],[m
+[32m+[m[32m  "imageSize": 100,[m
+[32m+[m[32m  "commit": false,[m
+[32m+[m[32m  "contributors": [[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "ashutosh1919",[m
+[32m+[m[32m      "name": "Ashutosh Hathidara",[m
+[32m+[m[32m      "avatar_url": "https://avatars3.githubusercontent.com/u/20843596?s=460&u=7f184b911f73ae1dc5765ab686fff2b2e984830f&v=4",[m
+[32m+[m[32m      "profile": "http://ashutosh1919.github.io",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code",[m
+[32m+[m[32m        "doc",[m
+[32m+[m[32m        "design",[m
+[32m+[m[32m        "maintenance",[m
+[32m+[m[32m        "ideas"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "danielmarostica",[m
+[32m+[m[32m      "name": "Daniel Marostica",[m
+[32m+[m[32m      "avatar_url": "https://avatars3.githubusercontent.com/u/3595998?v=4",[m
+[32m+[m[32m      "profile": "https://danielmarostica.github.io/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc",[m
+[32m+[m[32m        "design"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "dineshnadimpalli",[m
+[32m+[m[32m      "name": "Dinesh Nadimpalli",[m
+[32m+[m[32m      "avatar_url": "https://avatars2.githubusercontent.com/u/13104926?v=4",[m
+[32m+[m[32m      "profile": "https://dineshnadimpalli.com",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "jivthesh",[m
+[32m+[m[32m      "name": "Jivthesh M R",[m
+[32m+[m[32m      "avatar_url": "https://avatars3.githubusercontent.com/u/20579980?v=4",[m
+[32m+[m[32m      "profile": "http://jivthesh.github.io",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "mrjatinchauhan",[m
+[32m+[m[32m      "name": "Jatin Chauhan",[m
+[32m+[m[32m      "avatar_url": "https://avatars2.githubusercontent.com/u/40722235?v=4",[m
+[32m+[m[32m      "profile": "http://jatinchauhan.tech",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "th3c0d3br34ker",[m
+[32m+[m[32m      "name": "Jainam Desai",[m
+[32m+[m[32m      "avatar_url": "https://avatars1.githubusercontent.com/u/60807938?v=4",[m
+[32m+[m[32m      "profile": "https://th3c0d3br34ker.github.io/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code",[m
+[32m+[m[32m        "question"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "Tasin5541",[m
+[32m+[m[32m      "name": "Miftaul Mannan",[m
+[32m+[m[32m      "avatar_url": "https://avatars0.githubusercontent.com/u/42533823?v=4",[m
+[32m+[m[32m      "profile": "https://miftaulmannan.wordpress.com/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "a-mishra",[m
+[32m+[m[32m      "name": "Ashutosh Mishra",[m
+[32m+[m[32m      "avatar_url": "https://avatars0.githubusercontent.com/u/10567548?v=4",[m
+[32m+[m[32m      "profile": "http://a-mishra.github.io",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "tamojit-123",[m
+[32m+[m[32m      "name": "Tamojit",[m
+[32m+[m[32m      "avatar_url": "https://avatars0.githubusercontent.com/u/40804626?v=4",[m
+[32m+[m[32m      "profile": "http://tamojit.wixsite.com/mrtamojit",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc",[m
+[32m+[m[32m        "code",[m
+[32m+[m[32m        "design"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "githubprabin143",[m
+[32m+[m[32m      "name": "Prabin Karki",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/43983896?v=4",[m
+[32m+[m[32m      "profile": "https://prabin-karki.com.np",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "praveenscience",[m
+[32m+[m[32m      "name": "Praveen Kumar Purushothaman",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/1830380?v=4",[m
+[32m+[m[32m      "profile": "https://praveen.science/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "baulml",[m
+[32m+[m[32m      "name": "paul",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/33395806?v=4",[m
+[32m+[m[32m      "profile": "http://baul.ml",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "SandipDhang",[m
+[32m+[m[32m      "name": "Sandip Dhang",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/50694884?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/SandipDhang",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "ioribrn",[m
+[32m+[m[32m      "name": "Jawad Moustadif",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/43734587?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/ioribrn",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "priyanshk20",[m
+[32m+[m[32m      "name": "Priyansh Khandelwal",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/52736997?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/priyanshk20",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code",[m
+[32m+[m[32m        "design"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "abdslam01",[m
+[32m+[m[32m      "name": "Abdessalam Bahafid",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/59281502?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/abdslam01",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "dhruvkrishnavaid",[m
+[32m+[m[32m      "name": "Dhruv Krishna Vaid",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/69188774?v=4",[m
+[32m+[m[32m      "profile": "https://dhruvkrishnavaid.github.io",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code",[m
+[32m+[m[32m        "doc",[m
+[32m+[m[32m        "ideas",[m
+[32m+[m[32m        "question"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "KasRoudra",[m
+[32m+[m[32m      "name": "KasRoudra",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/78908440?v=4",[m
+[32m+[m[32m      "profile": "https://kasroudra.github.io",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "AlbertEinsteinTG",[m
+[32m+[m[32m      "name": "Albert Einstein",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/73480087?v=4",[m
+[32m+[m[32m      "profile": "https://telegram.dog/AlbertEinstein_TG",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "SurajPratap10",[m
+[32m+[m[32m      "name": "Suraj Pratap",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/92919173?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/SurajPratap10",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "saiteja13427",[m
+[32m+[m[32m      "name": "Sai Teja",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/40917760?v=4",[m
+[32m+[m[32m      "profile": "https://lightmap.dev",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code",[m
+[32m+[m[32m        "doc",[m
+[32m+[m[32m        "maintenance",[m
+[32m+[m[32m        "ideas"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "AnirudhPanda",[m
+[32m+[m[32m      "name": "Anirudh Panda",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/66218496?v=4",[m
+[32m+[m[32m      "profile": "https://anirudhpanda.in/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "hidayat7z",[m
+[32m+[m[32m      "name": "Md Hidayat Rasool",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/63554016?v=4",[m
+[32m+[m[32m      "profile": "https://hidayat7z.github.io",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "SiddhantSadangi",[m
+[32m+[m[32m      "name": "Siddhant Sadangi",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/41324509?v=4",[m
+[32m+[m[32m      "profile": "https://www.linkedin.com/in/siddhantsadangi/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "vanoop729",[m
+[32m+[m[32m      "name": "Anoop V",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/59723767?v=4",[m
+[32m+[m[32m      "profile": "https://anoopvarghese.in/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "aash1999",[m
+[32m+[m[32m      "name": "Aakash Singh",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/39939476?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/aash1999",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "aherrera3",[m
+[32m+[m[32m      "name": "Angélica Herrera Alba",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/52289646?v=4",[m
+[32m+[m[32m      "profile": "https://aherrera3.github.io/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "dminkovski",[m
+[32m+[m[32m      "name": "David Minkovski",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/1609264?v=4",[m
+[32m+[m[32m      "profile": "https://davidminkovski.com",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "ideas",[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "cdigruttola",[m
+[32m+[m[32m      "name": "Carmine Di Gruttola",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/9153905?v=4",[m
+[32m+[m[32m      "profile": "http://cdigruttola.it",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "ideas",[m
+[32m+[m[32m        "promotion"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "Vyomrana02",[m
+[32m+[m[32m      "name": "Vyom Rana",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/87069619?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/Vyomrana02",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "parthrc",[m
+[32m+[m[32m      "name": "Parth Chawande",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/101104958?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/parthrc",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "0Armaan025",[m
+[32m+[m[32m      "name": "Armaan",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/104704093?v=4",[m
+[32m+[m[32m      "profile": "https://github.com/0Armaan025",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "doc"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "varundhand",[m
+[32m+[m[32m      "name": "Varun Dhand",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/110025628?v=4",[m
+[32m+[m[32m      "profile": "https://varundhand.netlify.app/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "vjspranav",[m
+[32m+[m[32m      "name": "VJS Pranavasri",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/17949836?v=4",[m
+[32m+[m[32m      "profile": "http://vjspranav.dev",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    },[m
+[32m+[m[32m    {[m
+[32m+[m[32m      "login": "Rahulkush1",[m
+[32m+[m[32m      "name": "Rahul Kushwaha",[m
+[32m+[m[32m      "avatar_url": "https://avatars.githubusercontent.com/u/90745824?v=4",[m
+[32m+[m[32m      "profile": "https://rahulkush1.github.io/",[m
+[32m+[m[32m      "contributions": [[m
+[32m+[m[32m        "code"[m
+[32m+[m[32m      ][m
+[32m+[m[32m    }[m
+[32m+[m[32m  ],[m
+[32m+[m[32m  "contributorsPerLine": 7,[m
+[32m+[m[32m  "projectName": "masterPortfolio",[m
+[32m+[m[32m  "projectOwner": "ashutosh1919",[m
+[32m+[m[32m  "repoType": "github",[m
+[32m+[m[32m  "repoHost": "https://github.com",[m
+[32m+[m[32m  "skipCi": true,[m
+[32m+[m[32m  "commitConvention": "angular",[m
+[32m+[m[32m  "commitType": "docs"[m
+[32m+[m[32m}[m
+[1mdiff --git a/.env b/.env[m
+[1mnew file mode 100644[m
+[1mindex 0000000..9332c6e[m
+[1m--- /dev/null[m
+[1m+++ b/.env[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mGITHUB_TOKEN=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[m
+[32m+[m[32mGITHUB_USERNAME=areebafff[m
+\ No newline at end of file[m
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3c3629e[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mnode_modules[m
+[1mdiff --git a/.prettierignore b/.prettierignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..ec67f06[m
+[1m--- /dev/null[m
+[1m+++ b/.prettierignore[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m.github[m
+[32m+[m[32mimages[m
+[32m+[m[32mnode_modules[m
+[32m+[m[32mbuild[m
+[32m+[m[32mpublic[m
+[32m+[m[32m*.json[m
+\ No newline at end of file[m
+[1mdiff --git a/.prettierrc.json b/.prettierrc.json[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0967ef4[m
+[1m--- /dev/null[m
+[1m+++ b/.prettierrc.json[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m{}[m
+[1mdiff --git a/CNAME b/CNAME[m
+[1mnew file mode 100644[m
+[1mindex 0000000..05c5249[m
+[1m--- /dev/null[m
+[1m+++ b/CNAME[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mashutoshhathidara.com[m
+\ No newline at end of file[m
+[1mdiff --git a/CODE_OF_CONDUCT.md b/CODE_OF_CONDUCT.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fa11e17[m
+[1m--- /dev/null[m
+[1m+++ b/CODE_OF_CONDUCT.md[m
+[36m@@ -0,0 +1,76 @@[m
+[32m+[m[32m# Contributor Covenant Code of Conduct[m
+[32m+[m
+[32m+[m[32m## Our Pledge[m
+[32m+[m
+[32m+[m[32mIn the interest of fostering an open and welcoming environment, we as[m
+[32m+[m[32mcontributors and maintainers pledge to making participation in our project and[m
+[32m+[m[32mour community a harassment-free experience for everyone, regardless of age, body[m
+[32m+[m[32msize, disability, ethnicity, sex characteristics, gender identity and expression,[m
+[32m+[m[32mlevel of experience, education, socio-economic status, nationality, personal[m
+[32m+[m[32mappearance, race, religion, or sexual identity and orientation.[m
+[32m+[m
+[32m+[m[32m## Our Standards[m
+[32m+[m
+[32m+[m[32mExamples of behavior that contributes to creating a positive environment[m
+[32m+[m[32minclude:[m
+[32m+[m
+[32m+[m[32m- Using welcoming and inclusive language[m
+[32m+[m[32m- Being respectful of differing viewpoints and experiences[m
+[32m+[m[32m- Gracefully accepting constructive criticism[m
+[32m+[m[32m- Focusing on what is best for the community[m
+[32m+[m[32m- Showing empathy towards other community members[m
+[32m+[m
+[32m+[m[32mExamples of unacceptable behavior by participants include:[m
+[32m+[m
+[32m+[m[32m- The use of sexualized language or imagery and unwelcome sexual attention or[m
+[32m+[m[32m  advances[m
+[32m+[m[32m- Trolling, insulting/derogatory comments, and personal or political attacks[m
+[32m+[m[32m- Public or private harassment[m
+[32m+[m[32m- Publishing others' private information, such as a physical or electronic[m
+[32m+[m[32m  address, without explicit permission[m
+[32m+[m[32m- Other conduct which could reasonably be considered inappropriate in a[m
+[32m+[m[32m  professional setting[m
+[32m+[m
+[32m+[m[32m## Our Responsibilities[m
+[32m+[m
+[32m+[m[32mProject maintainers are responsible for clarifying the standards of acceptable[m
+[32m+[m[32mbehavior and are expected to take appropriate and fair corrective action in[m
+[32m+[m[32mresponse to any instances of unacceptable behavior.[m
+[32m+[m
+[32m+[m[32mProject maintainers have the right and responsibility to remove, edit, or[m
+[32m+[m[32mreject comments, commits, code, wiki edits, issues, and other contributions[m
+[32m+[m[32mthat are not aligned to this Code of Conduct, or to ban temporarily or[m
+[32m+[m[32mpermanently any contributor for other behaviors that they deem inappropriate,[m
+[32m+[m[32mthreatening, offensive, or harmful.[m
+[32m+[m
+[32m+[m[32m## Scope[m
+[32m+[m
+[32m+[m[32mThis Code of Conduct applies both within project spaces and in public spaces[m
+[32m+[m[32mwhen an individual is representing the project or its community. Examples of[m
+[32m+[m[32mrepresenting a project or community include using an official project e-mail[m
+[32m+[m[32maddress, posting via an official social media account, or acting as an appointed[m
+[32m+[m[32mrepresentative at an online or offline event. Representation of a project may be[m
+[32m+[m[32mfurther defined and clarified by project maintainers.[m
+[32m+[m
+[32m+[m[32m## Enforcement[m
+[32m+[m
+[32m+[m[32mInstances of abusive, harassing, or otherwise unacceptable behavior may be[m
+[32m+[m[32mreported by contacting the project team at ashutoshhathidara98@gmail.com. All[m
+[32m+[m[32mcomplaints will be reviewed and investigated and will result in a response that[m
+[32m+[m[32mis deemed necessary and appropriate to the circumstances. The project team is[m
+[32m+[m[32mobligated to maintain confidentiality with regard to the reporter of an incident.[m
+[32m+[m[32mFurther details of specific enforcement policies may be posted separately.[m
+[32m+[m
+[32m+[m[32mProject maintainers who do not follow or enforce the Code of Conduct in good[m
+[32m+[m[32mfaith may face temporary or permanent repercussions as determined by other[m
+[32m+[m[32mmembers of the project's leadership.[m
+[32m+[m
+[32m+[m[32m## Attribution[m
+[32m+[m
+[32m+[m[32mThis Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,[m
+[32m+[m[32mavailable at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html[m
+[32m+[m
+[32m+[m[32m[homepage]: https://www.contributor-covenant.org[m
+[32m+[m
+[32m+[m[32mFor answers to common questions about this code of conduct, see[m
+[32m+[m[32mhttps://www.contributor-covenant.org/faq[m
+[1mdiff --git a/CONTRIBUTING.md b/CONTRIBUTING.md[m
+[1mnew file mode 100644[m
+[1mindex 0000000..696e07d[m
+[1m--- /dev/null[m
+[1m+++ b/CONTRIBUTING.md[m
+[36m@@ -0,0 +1,69 @@[m
+[32m+[m[32m# 🚀 Contributing to the MasterPortfolio Project[m
+[32m+[m
+[32m+[m[32mThank you for considering contributing to the MasterPortfolio project! Your help is greatly appreciated. 😊[m
+[32m+[m
+[32m+[m[32m## 🤝 How to Contribute[m
+[32m+[m
+[32m+[m[32mHere are some fun and precise steps to get you started:[m
+[32m+[m
+[32m+[m[32m1. **Fork the Repository** 🍴[m
+[32m+[m[32m   - Click the "Fork" button on the top right of the [MasterPortfolio repository](https://github.com/ashutosh1919/masterPortfolio) page on GitHub. This will create a copy of the project in your own GitHub account.[m
+[32m+[m
+[32m+[m[32m2. **Clone Your Fork** 🧙‍♂️[m
+[32m+[m[32m   - In your terminal, run the following command to clone your fork to your local machine:[m
+[32m+[m[32m     ```[m
+[32m+[m[32m     git clone https://github.com/YourUsername/masterPortfolio.git[m
+[32m+[m[32m     ```[m
+[32m+[m
+[32m+[m[32m3. **Switch to the Project Directory** 📁[m
+[32m+[m[32m   - Move into the project directory using:[m
+[32m+[m[32m     ```[m
+[32m+[m[32m     cd masterPortfolio[m
+[32m+[m[32m     ```[m
+[32m+[m
+[32m+[m[32m4. **Move to Gatsby** 🚀[m
+[32m+[m[32m   - If you're working on this task, please help us migrate the project to Gatsby. Make the necessary changes and test everything to ensure it works smoothly.[m
+[32m+[m
+[32m+[m[32m5. **Add Podcast and Video Sections** 🎙️📹[m
+[32m+[m[32m   - We'd love to have sections for podcasts and videos on the portfolio. Create these sections and make sure they look fantastic.[m
+[32m+[m
+[32m+[m[32m6. **Add Tests for Automation** 🧪[m
+[32m+[m[32m   - To ensure code quality, add tests where appropriate. Use test frameworks like Jest or Cypress, and make sure the tests pass.[m
+[32m+[m
+[32m+[m[32m7. **Set Up Travis Workflow** 🤖[m
+[32m+[m[32m   - Implement a Travis CI workflow to automate builds and testing. This will help ensure that changes don't break the project.[m
+[32m+[m
+[32m+[m[32m8. **Create a Branch** 🌿[m
+[32m+[m[32m   - Create a new branch for your changes with a descriptive name. For example:[m
+[32m+[m[32m     ```[m
+[32m+[m[32m     git checkout -b gatsby-migration[m
+[32m+[m[32m     ```[m
+[32m+[m
+[32m+[m[32m9. **Make Your Changes** 💡[m
+[32m+[m[32m   - Implement your awesome changes and features.[m
+[32m+[m
+[32m+[m[32m10. **Commit Your Changes** 📝[m
+[32m+[m[32m    - Commit your changes with a descriptive message. For example:[m
+[32m+[m[32m      ```[m
+[32m+[m[32m      git commit -m "Added Gatsby migration and podcast section"[m
+[32m+[m[32m      ```[m
+[32m+[m
+[32m+[m[32m11. **Push Your Changes** 🚢[m
+[32m+[m[32m    - Push your changes to your fork on GitHub:[m
+[32m+[m[32m      ```[m
+[32m+[m[32m      git push origin gatsby-migration[m
+[32m+[m[32m      ```[m
+[32m+[m
+[32m+[m[32m12. **Create a Pull Request** 🙌[m
+[32m+[m[32m    - Go to your fork on GitHub, and click the "New Pull Request" button. Follow the prompts, and submit your changes for review.[m
+[32m+[m
+[32m+[m[32m13. **Celebrate** 🎉[m
+[32m+[m[32m    - You've contributed to the MasterPortfolio project! Thanks for your hard work and dedication.[m
+[32m+[m
+[32m+[m[32m## 📌 Issues[m
+[32m+[m
+[32m+[m[32mIf you encounter any issues or have ideas for improvements, please open an [issue](https://github.com/ashutosh1919/masterPortfolio/issues) and let us know.[m
+[32m+[m
+[32m+[m[32m## 🙏 Thank You[m
+[32m+[m
+[32m+[m[32mWe appreciate your contribution and look forward to working together to make the MasterPortfolio project even better! 😄🚀[m
+\ No newline at end of file[m
+[1mdiff --git a/Dockerfile b/Dockerfile[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7b16a21[m
+[1m--- /dev/null[m
+[1m+++ b/Dockerfile[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32mFROM node:13.12.0-alpine[m
+[32m+[m
+[32m+[m[32m# set working directory[m
+[32m+[m[32mWORKDIR /app[m
+[32m+[m
+[32m+[m[32m# add `/app/node_modules/.bin` to $PATH[m
+[32m+[m[32mENV PATH /app/node_modules/.bin:$PATH[m
+[32m+[m
+[32m+[m[32m# install app dependencies[m
+[32m+[m[32mCOPY package.json ./[m
+[32m+[m[32mCOPY package-lock.json ./[m
+[32m+[m[32mRUN npm install --silent[m
+[32m+[m[32mRUN npm install[m[41m [m
+[32m+[m[32m#react-scripts@3.4.1 -g --silent[m
+[32m+[m
+[32m+[m[32m# add app[m
+[32m+[m[32mCOPY . ./[m
+[32m+[m
+[32m+[m[32m# start app[m
+[32m+[m[32mCMD ["npm", "start"][m
+\ No newline at end of file[m
+[1mdiff --git a/LICENSE b/LICENSE[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1ecdcd6[m
+[1m--- /dev/null[m
+[1m+++ b/LICENSE[m
+[36m@@ -0,0 +1,21 @@[m
+[32m+[m[32mMIT License[m
+[32m+[m
+[32m+[m[32mCopyright (c) 2020 Ashutosh Hathidara[m
+[32m+[m
+[32m+[m[32mPermission is hereby granted, free of charge, to any person obtaining a copy[m
+[32m+[m[32mof this software and associated documentation files (the "Software"), to deal[m
+[32m+[m[32min the Software without restriction, including without limitation the rights[m
+[32m+[m[32mto use, copy, modify, merge, publish, distribute, sublicense, and/or sell[m
+[32m+[m[32mcopies of the Software, and to permit persons to whom the Software is[m
+[32m+[m[32mfurnished to do so, subject to the following conditions:[m
+[32m+[m
+[32m+[m[32mThe above copyright notice and this permission notice shall be included in all[m
+[32m+[m[32mcopies or substantial portions of the Software.[m
+[32m+[m
+[32m+[m[32mTHE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR[m
+[32m+[m[32mIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,[m
+[32m+[m[32mFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE[m
+[32m+[m[32mAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER[m
+[32m+[m[32mLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,[m
+[32m+[m[32mOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE[m
+[32m+[m[32mSOFTWARE.[m
+[1mdiff --git a/docker-compose.yaml b/docker-compose.yaml[m
+[1mnew file mode 100644[m
+[1mindex 0000000..43a19c7[m
+[1m--- /dev/null[m
+[1m+++ b/docker-compose.yaml[m
+[36m@@ -0,0 +1,16 @@[m
+[32m+[m[32mversion: '3.7'[m
+[32m+[m
+[32m+[m[32mservices:[m
+[32m+[m
+[32m+[m[32m  sample:[m
+[32m+[m[32m    container_name: portfolio[m
+[32m+[m[32m    build:[m
+[32m+[m[32m      context: .[m
+[32m+[m[32m      dockerfile: Dockerfile[m
+[32m+[m[32m    volumes:[m
+[32m+[m[32m      - '.:/app'[m
+[32m+[m[32m      - '/app/node_modules'[
